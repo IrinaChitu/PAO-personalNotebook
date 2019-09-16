@@ -1,11 +1,10 @@
 package services;
 
-//public interface ReadCSV {
-//}
-
+import models.events.Academical;
 import models.events.Anniversary;
 import models.events.Meeting;
 import models.notes.Quotes;
+import models.notes.Story;
 import models.notes.Tasks;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -17,41 +16,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 public class ReadCSV {
-//    private static final String CSV_FILE_PATH = "./src/main/resources/anniversary.csv";
-//
-//    public static void main(String[] args) throws IOException {
-//        try (
-//                Reader reader = Files.newBufferedReader(Paths.get(CSV_FILE_PATH));
-//                CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT
-//                        .withFirstRecordAsHeader()
-//                        .withIgnoreHeaderCase()
-//                        .withTrim());
-//        ) {
-//            for (CSVRecord csvRecord : csvParser) {
-//                // Accessing values by Header names
-//                String date = csvRecord.get("date");
-//                String birthdayPerson = csvRecord.get("birthdayPerson");
-//                String partyPlace = csvRecord.get("partyPlace");
-//                String gift = csvRecord.get("gift");
-//
-//                System.out.println("Record No - " + csvRecord.getRecordNumber());
-//                System.out.println("---------------");
-//                System.out.println("date : " + date);
-//                System.out.println("birthdayPerson : " + birthdayPerson);
-//                System.out.println("partyPlace : " + partyPlace);
-//                System.out.println("gift : " + gift);
-//                System.out.println("---------------\n\n");
-//            }
-//
-//
-//        }
-//    }
 
     public static <T> List<T> CSVReader(String type) throws IOException, ParseException {
         List<T> read = new ArrayList<>();
@@ -65,6 +32,7 @@ public class ReadCSV {
                                 .withTrim());
                 ) {
                     for (CSVRecord csvRecord : csvParser) {
+
                         // Accessing values by Header names
                         String dataTemp = csvRecord.get("Date");
                         Date date = new SimpleDateFormat("dd/MM/yyyy").parse(dataTemp);
@@ -75,15 +43,34 @@ public class ReadCSV {
 
                         Anniversary anniversary = new Anniversary(date, description, birthdayPerson, partyPlace, gift);
                         read.add((T) anniversary);
+                    }
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+                break;
 
-//                        System.out.println("Record No - " + csvRecord.getRecordNumber());
-//                        System.out.println("---------------");
-//                        System.out.println("date : " + date);
-//                        System.out.println("description : " + description);
-//                        System.out.println("birthdayPerson : " + birthdayPerson);
-//                        System.out.println("partyPlace : " + partyPlace);
-//                        System.out.println("gift : " + gift);
-//                        System.out.println("---------------\n\n");
+            case "Academical":
+                try (
+                        Reader reader = Files.newBufferedReader(Paths.get("./src/main/resources/academical.csv"));
+                        CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT
+                                .withFirstRecordAsHeader()
+                                .withIgnoreHeaderCase()
+                                .withTrim());
+                ) {
+                    for (CSVRecord csvRecord : csvParser) {
+
+                        // Accessing values by Header names
+                        String dataTemp = csvRecord.get("Date");
+                        Date date = new SimpleDateFormat("dd/MM/yyyy").parse(dataTemp);
+                        String description = csvRecord.get("Description");
+                        String typee = csvRecord.get("Type");
+                        String field = csvRecord.get("Field");
+                        String place = csvRecord.get("Place");
+                        int startTime = Integer.parseInt(csvRecord.get("StartTime"));
+                        int endTime = Integer.parseInt(csvRecord.get("EndTime"));
+
+                        Academical academical = new Academical(date, description, typee, field, place, startTime, endTime);
+                        read.add((T) academical);
                     }
 
                 } catch (ParseException e) {
@@ -92,7 +79,6 @@ public class ReadCSV {
                 break;
 
             case "Meeting":
-                //name, text, author
                 try (
                         Reader reader = Files.newBufferedReader(Paths.get("./src/main/resources/meeting.csv"));
                         CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT
@@ -101,6 +87,7 @@ public class ReadCSV {
                                 .withTrim());
                 ) {
                     for (CSVRecord csvRecord : csvParser) {
+
                         // Accessing values by Header names
                         String dataTemp = csvRecord.get("Date");
                         Date date = new SimpleDateFormat("dd/MM/yyyy").parse(dataTemp);
@@ -120,26 +107,13 @@ public class ReadCSV {
                         endTime.set(Calendar.MINUTE, Integer.parseInt(splitEndTime[1]));
                         endTime.set(Calendar.SECOND,0);
                         endTime.set(Calendar.MILLISECOND,0);
-                        Meeting meeting = new Meeting(date, csvRecord.get("Description"),
-                                csvRecord.get("Purpose"), csvRecord.get("Place"), startTime, endTime);
+                        Meeting meeting = new Meeting(date, csvRecord.get("Description"), csvRecord.get("Purpose"), csvRecord.get("Place"), startTime, endTime);
                         read.add((T) meeting);
-
-//                        System.out.println("Record No - " + csvRecord.getRecordNumber());
-//                        System.out.println("---------------");
-//                        System.out.println("Date : " + csvRecord.get("Date"));
-//                        System.out.println("Description : " + csvRecord.get("Description"));
-//                        System.out.println("Purpose : " + csvRecord.get("Purpose"));
-//                        System.out.println("Purpose : " + csvRecord.get("Place"));
-//                        System.out.println("StartTime : " + csvRecord.get("StartTime"));
-//                        System.out.println("EndTime : " + csvRecord.get("EndTime"));
-//                        System.out.println("---------------\n\n");
                     }
-
                 }
                 break;
 
             case "Quotes":
-                //name, text, author
                 try (
                         Reader reader = Files.newBufferedReader(Paths.get("./src/main/resources/quotes.csv"));
                         CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT
@@ -148,27 +122,36 @@ public class ReadCSV {
                                 .withTrim());
                 ) {
                     for (CSVRecord csvRecord : csvParser) {
-                        // Accessing values by Header names
-//                        String name = csvRecord.get("Name");
-//                        String text = csvRecord.get("Text");
-//                        String author = csvRecord.get("Author");
 
                         Quotes quote = new Quotes(csvRecord.get("Name"), csvRecord.get("Text"), csvRecord.get("Author"));
                         read.add((T) quote);
-
-//                        System.out.println("Record No - " + csvRecord.getRecordNumber());
-//                        System.out.println("---------------");
-//                        System.out.println("name : " + csvRecord.get("Name"));
-//                        System.out.println("text : " + csvRecord.get("Text"));
-//                        System.out.println("author : " + csvRecord.get("Author"));
-//                        System.out.println("---------------\n\n");
                     }
+                }
+                break;
 
+            case "Story":
+                try (
+                        Reader reader = Files.newBufferedReader(Paths.get("./src/main/resources/story.csv"));
+                        CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT
+                                .withFirstRecordAsHeader()
+                                .withIgnoreHeaderCase()
+                                .withTrim());
+                ) {
+                    for (CSVRecord csvRecord : csvParser) {
+
+                        String[] people = csvRecord.get("PeopleInvolved").split(", ");
+                        Set<String> peopleInvolved = new HashSet<String>();
+                        for (String person: people) {
+                            peopleInvolved.add(person);
+                        }
+
+                        Story story = new Story(csvRecord.get("Name"), csvRecord.get("Text"), csvRecord.get("Place"), peopleInvolved);
+                        read.add((T) story);
+                    }
                 }
                 break;
 
             case "Tasks":
-                //"Name", "Text", "Done", "Deadline"
                 try (
                         Reader reader = Files.newBufferedReader(Paths.get("./src/main/resources/tasks.csv"));
                         CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT
@@ -186,25 +169,10 @@ public class ReadCSV {
                         deadline.set(Calendar.YEAR, Integer.parseInt(splitDeadline[2]));
                         Tasks task = new Tasks(csvRecord.get("Name"), csvRecord.get("Text"), deadline);
                         read.add((T) task);
-
-//                        System.out.println("Record No - " + csvRecord.getRecordNumber());
-//                        System.out.println("---------------");
-//                        System.out.println("name : " + csvRecord.get("Name"));
-//                        System.out.println("text : " + csvRecord.get("Text"));
-//                        System.out.println("done : " + csvRecord.get("Done"));
-//                        System.out.println("deadline : " + csvRecord.get("Deadline"));
-//                        System.out.println("---------------\n\n");
                     }
-
                 }
                 break;
-
-
         }
-
         return read;
     }
 }
-
-// interfata generica pe care ulterior fiecare clasa o implementeaza
-// o singura clasa cu switch

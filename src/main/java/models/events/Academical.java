@@ -1,7 +1,6 @@
 package models.events;
 
 // import java.time.Duration;
-import java.util.Calendar;
 import java.util.Date;
 
 public class Academical extends Event {
@@ -9,10 +8,23 @@ public class Academical extends Event {
     private String field;
     private String place;
     // private Duration duration; // Duration.ofHours(int);
-    private Calendar startTime;
-    private Calendar endTime;
+    private int startTime;
+    private int endTime;
 
-    public Academical(Date date, String description, String type, String field, String place, Calendar startTime, Calendar endTime) {
+    public Academical() {
+        super();
+    }
+
+    public Academical(Date date, String description, String type, String field, String place) {
+        super(date, description);
+        this.type = type;
+        this.field = field;
+        this.place = place;
+        this.startTime = 0;
+        this.endTime = 0;
+    }
+
+    public Academical(Date date, String description, String type, String field, String place, int startTime, int endTime) {
         super(date, description);
         this.type = type;
         this.field = field;
@@ -33,11 +45,11 @@ public class Academical extends Event {
         this.place = place;
     }
 
-    public void setStartTime(Calendar startTime) {
+    public void setStartTime(Integer startTime) {
         this.startTime = startTime;
     }
 
-    public void setEndTime(Calendar endTime) {
+    public void setEndTime(Integer endTime) {
         this.endTime = endTime;
     }
 
@@ -53,11 +65,11 @@ public class Academical extends Event {
         return place;
     }
 
-    public Calendar getStartTime() {
+    public int getStartTime() {
         return startTime;
     }
 
-    public Calendar getEndTime() {
+    public int getEndTime() {
         return endTime;
     }
 
@@ -73,11 +85,11 @@ public class Academical extends Event {
         if(place != null) {
             System.out.println("Place: " + place);
         }
-        if(startTime != null) {
-            System.out.println("Start Time: " + startTime.get(Calendar.HOUR_OF_DAY));
+        if(startTime != 0) {
+            System.out.println("Start Time: " + startTime);
         }
-        if(endTime != null) {
-            System.out.println("End Time: " + endTime.get(Calendar.MINUTE));
+        if(endTime != 0) {
+            System.out.println("End Time: " + endTime);
         }
     }
 }

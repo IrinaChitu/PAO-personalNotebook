@@ -1,4 +1,4 @@
-import gui.Interfata_JFrame;
+import gui.InterfaceSwing;
 import models.events.Anniversary;
 // import notebook.PlanningNotebook;
 import models.events.Meeting;
@@ -177,7 +177,7 @@ public class MainClass {
 
         // DeleteDatabase.DatabaseDeleter("Anniversary", tobedeleted.getId());
 
-         Interfata_JFrame jf = new Interfata_JFrame();
+         InterfaceSwing jf = new InterfaceSwing();
 //        System.out.println(eventService.objectToString(aniversari));
         System.out.println(eventService.objectToString(eventService.findBirthdayPersonByName("Irina")));
 

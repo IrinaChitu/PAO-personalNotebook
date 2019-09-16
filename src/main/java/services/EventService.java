@@ -18,6 +18,10 @@ public class EventService {
 
     private EventService() {}
 
+    public void addAcademical(Date date, String description, String type, String field, String place, int startTime, int endTime) {
+        Event ev = new Academical(date, description, type, field, place, startTime, endTime);
+        planningNotebook.addEvent(ev);
+    }
     public void addEvent(Event event) {
         planningNotebook.addEvent(event);
     }

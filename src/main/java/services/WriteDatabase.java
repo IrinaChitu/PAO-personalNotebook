@@ -25,7 +25,7 @@ public class WriteDatabase {
         {
             conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/notebook", "root", "");
 
-            switch( listOfObjects.get(0).getClass().getSimpleName() ) {
+             switch( listOfObjects.get(0).getClass().getSimpleName() ) {
                 case "Anniversary":
                     for( T object: listOfObjects) {
                         Anniversary anniversary = Anniversary.class.cast(object);
