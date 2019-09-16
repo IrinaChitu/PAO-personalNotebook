@@ -1,0 +1,612 @@
+Sun May 05 14:04:30 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun May 05 14:04:30 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Tue May 07 09:11:37 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: CREATED STORY - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: CREATED TASK - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: ADDED STORY - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: ADDED TASK - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Tue May 07 09:11:38 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 16:55:44 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 21:38:48 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 21:40:37 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 21:42:33 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 21:43:41 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 21:49:58 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 21:54:22 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 21:55:05 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 21:56:35 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 21:56:46 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 21:57:19 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 22:14:47 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 22:18:22 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 22:56:54 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 22:59:09 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 23:00:03 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 23:00:03 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 23:00:04 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: CREATED STORY - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: CREATED TASK - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: ADDED STORY - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: ADDED TASK - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Sun Jun 02 23:00:54 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 00:24:35 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 00:25:23 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 00:25:34 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 00:25:35 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 00:26:08 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 00:26:56 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 01:37:30 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 01:37:46 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 01:39:31 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 01:39:53 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 01:41:50 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 01:42:39 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 01:42:40 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 01:47:36 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 01:51:54 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 01:53:03 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 01:53:03 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 01:53:04 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: LOADING MEETINGS FROM meeting.csv - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: LOADING TASKS FROM tasks.csv - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: CREATED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: CREATED STORY - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: CREATED TASK - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: ADDED QUOTE - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: ADDED STORY - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: ADDED TASK - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: CREATED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: CREATED MEETING - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: ADDED ANNIVERSARY - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: ADDED MEETING - personalNotebook.Logger
+Mon Jun 03 01:53:27 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
