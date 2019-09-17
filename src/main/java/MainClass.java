@@ -161,9 +161,9 @@ public class MainClass {
         noteService.addNote(task3);
         noteService.addNote(task4);
 
-         WriteDatabase.DatabaseWriter(aniversari);
-        WriteDatabase.DatabaseWriter(noteService.getQuotes());
-        WriteDatabase.DatabaseWriter(noteService.getTasks());
+//        WriteDatabase.DatabaseWriter(aniversari);
+//        WriteDatabase.DatabaseWriter(noteService.getQuotes());
+//        WriteDatabase.DatabaseWriter(noteService.getTasks());
 
         ArrayList<Anniversary> anniversaryTemp = eventService.findBirthdayPersonByName("Sarah");
         Anniversary anTemp = anniversaryTemp.get(0);
@@ -175,10 +175,8 @@ public class MainClass {
             a.printEvent();
         }
 
-        // DeleteDatabase.DatabaseDeleter("Anniversary", tobedeleted.getId());
 
-         InterfaceSwing jf = new InterfaceSwing();
-//        System.out.println(eventService.objectToString(aniversari));
+        InterfaceSwing jf = new InterfaceSwing();
         System.out.println(eventService.objectToString(eventService.findBirthdayPersonByName("Irina")));
 
         String dt = "20/10/1998";
@@ -188,7 +186,5 @@ public class MainClass {
         } catch (ParseException e1) {
             e1.printStackTrace();
         }
-//        System.out.println(date);
-//        System.out.println(eventService.objectToString(eventService.findByDate(date)));
     }
 }

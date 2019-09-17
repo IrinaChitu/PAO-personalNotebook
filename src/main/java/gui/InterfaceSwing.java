@@ -1,10 +1,13 @@
 package gui;
 
 import models.events.Academical;
+import models.events.Anniversary;
 import models.notes.Quotes;
 import models.notes.Story;
 import services.EventService;
+import services.EventServiceDB;
 import services.NoteService;
+import services.NoteServiceDB;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -13,6 +16,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import javax.swing.*;
 
@@ -23,7 +27,8 @@ public class InterfaceSwing {
     public InterfaceSwing() {
         EventService eventService = EventService.getInstance();
         NoteService noteService = NoteService.getInstance();
-
+        EventServiceDB eventServiceDB = EventServiceDB.getInstance();
+        NoteServiceDB notetServiceDB = NoteServiceDB.getInstance();
 
         JFrame frame = new JFrame("My Personal Notebook");
 
@@ -54,8 +59,8 @@ public class InterfaceSwing {
                 JButton updateNoteButton = new JButton("Update a note!");
                 JButton deleteEventButton = new JButton("Delete an event!");
                 JButton deleteNoteButton = new JButton("Delete a note!");
-                JButton readEventButton = new JButton("Show all future events!");
-                JButton readNoteButton = new JButton("Show all my notes!");
+                JButton readEventButton = new JButton("Show future events!");
+                JButton readNoteButton = new JButton("Show my notes!");
 
 // de vazut cum pot redimensiona butoanele
 //                addEventButton.setSize(300, 200);
@@ -111,7 +116,7 @@ public class InterfaceSwing {
                                 addButton.addActionListener(new ActionListener() {
                                     public void actionPerformed(ActionEvent addingEvent) {
                                         try {
-                                            eventService.addEvent(new Academical(
+                                            eventServiceDB.addAcademical(new Academical( //serviciuBD
                                                     new SimpleDateFormat("dd/MM/yyyy").parse(insertdate.getText()),
                                                     insertdescription.getText(),
                                                     inserttype.getText(),
@@ -123,8 +128,6 @@ public class InterfaceSwing {
                                         } catch (ParseException e1) {
                                             e1.printStackTrace();
                                         }
-
-                                        // in servicii modifica a.i. sa apeleze DB
 
                                         addAcademicalFrame.setVisible(false);
                                     }
@@ -185,7 +188,7 @@ public class InterfaceSwing {
                                 addButton.addActionListener(new ActionListener() {
                                     public void actionPerformed(ActionEvent addingEvent) {
                                         try {
-                                            eventService.addEvent(new Academical(
+                                            eventServiceDB.addAnniversary(new Anniversary( // serviciuBD
                                                     new SimpleDateFormat("dd/MM/yyyy").parse(insertdate.getText()),
                                                     insertdescription.getText(),
                                                     insertbirthdayPerson.getText(),
@@ -195,8 +198,6 @@ public class InterfaceSwing {
                                         } catch (ParseException e1) {
                                             e1.printStackTrace();
                                         }
-
-                                        // in servicii modifica a.i. sa apeleze DB
 
                                         addAniversaryFrame.setVisible(false);
                                     }
@@ -280,14 +281,12 @@ public class InterfaceSwing {
                                 JButton addButton = new JButton("Add!");
 
                                 addButton.addActionListener(new ActionListener() {
-                                    public void actionPerformed(ActionEvent addingEvent) {
-                                        noteService.addNote(new Quotes(
+                                    public void actionPerformed(ActionEvent addingNote) {
+                                        notetServiceDB.addQuote(new Quotes( //serviciuBD
                                                 insertname.getText(),
                                                 inserttext.getText(),
                                                 insertauthor.getText()
                                         ));
-
-                                        // in servicii modifica a.i. sa apeleze DB
 
                                         addQuoteFrame.setVisible(false);
 
@@ -422,6 +421,76 @@ public class InterfaceSwing {
                         updateMeeting.setAlignmentX(Component.CENTER_ALIGNMENT);
                         updateOther.setAlignmentX(Component.CENTER_ALIGNMENT);
 
+                        updateAnniversay.addActionListener(new ActionListener() {
+                            public void actionPerformed(ActionEvent updateAniversary) {
+                                JFrame updateAniversaryFrame = new JFrame("Updating an aniversary");
+                                JPanel aniversaryFields = new JPanel();
+
+                                JLabel datefield = new JLabel("DATE");
+                                JLabel descriptionfield = new JLabel("DESCRIPTION");
+                                JLabel birthdayPersonfield = new JLabel("BIRTHDAY PERSON");
+                                JLabel partyPlacefield = new JLabel("PARTY PLACE");
+                                JLabel giftfield = new JLabel("GIFT");
+                                JLabel idfield = new JLabel("ID");
+                                JTextField insertdate = new JTextField();
+                                JTextField insertdescription = new JTextField();
+                                JTextField insertbirthdayPerson = new JTextField();
+                                JTextField insertpartyPlace = new JTextField();
+                                JTextField insertgift = new JTextField();
+                                JTextField insertid = new JTextField();
+                                JButton addButton = new JButton("Update!");
+
+                                addButton.addActionListener(new ActionListener() {
+                                    public void actionPerformed(ActionEvent updatingEvent) {
+                                        try {
+                                            Anniversary anniversary = new Anniversary(
+                                                                            new SimpleDateFormat("dd/MM/yyyy").parse(insertdate.getText()),
+                                                                            insertdescription.getText(),
+                                                                            insertbirthdayPerson.getText(),
+                                                                            insertpartyPlace.getText(),
+                                                                            insertgift.getText()
+                                                                      );
+                                            anniversary.setId(Integer.parseInt(insertid.getText()));
+                                            eventServiceDB.updateAnniversary(anniversary); //serviciuBD
+                                        } catch (ParseException e1) {
+                                            e1.printStackTrace();
+                                        }
+
+                                        updateAniversaryFrame.setVisible(false);
+                                    }
+                                });
+
+                                insertdate.setAlignmentX(Component.CENTER_ALIGNMENT);
+                                insertdescription.setAlignmentX(Component.CENTER_ALIGNMENT);
+                                insertbirthdayPerson.setAlignmentX(Component.CENTER_ALIGNMENT);
+                                insertpartyPlace.setAlignmentX(Component.CENTER_ALIGNMENT);
+                                insertgift.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+                                aniversaryFields.setLayout(new BoxLayout(aniversaryFields, BoxLayout.Y_AXIS));
+
+                                aniversaryFields.add(datefield);
+                                aniversaryFields.add(insertdate);
+                                aniversaryFields.add(descriptionfield);
+                                aniversaryFields.add(insertdescription);
+                                aniversaryFields.add(birthdayPersonfield);
+                                aniversaryFields.add(insertbirthdayPerson);
+                                aniversaryFields.add(partyPlacefield);
+                                aniversaryFields.add(insertpartyPlace);
+                                aniversaryFields.add(giftfield);
+                                aniversaryFields.add(insertgift);
+                                aniversaryFields.add(idfield);
+                                aniversaryFields.add(insertid);
+
+                                aniversaryFields.add(addButton);
+
+                                updateAniversaryFrame.getContentPane().add(aniversaryFields);
+
+                                updateAniversaryFrame.setSize(new Dimension(300,500));
+                                updateAniversaryFrame.setLocationRelativeTo(null);
+                                updateAniversaryFrame.setVisible(true);
+                            }
+                        });
+
                         eventUpdatingOptions.setLayout(new BoxLayout(eventUpdatingOptions, BoxLayout.Y_AXIS));
 
                         eventUpdatingOptions.add(Box.createVerticalStrut(50));
@@ -476,6 +545,7 @@ public class InterfaceSwing {
 
                     }
                 });
+
                 deleteEventButton.addActionListener(new ActionListener() {
                     public void actionPerformed(ActionEvent deleteAnEvent) {
                         JFrame eventFrame = new JFrame("Delete an event");
@@ -485,6 +555,41 @@ public class InterfaceSwing {
                         JButton deleteAnniversay = new JButton("Delete an anniversary!");
                         JButton deleteMeeting = new JButton("Delete a meeting!");
                         JButton deleteOther = new JButton("Delete a random event!");
+
+                        deleteAnniversay.addActionListener(new ActionListener() {
+                            public void actionPerformed(ActionEvent deleteAniversary) {
+                                JFrame deleteAniversaryFrame = new JFrame("Deleting an aniversary");
+                                JPanel aniversaryFields = new JPanel();
+
+
+                                JLabel idfield = new JLabel("ID");
+                                JTextField insertid = new JTextField();
+                                JButton addButton = new JButton("Delete!");
+
+                                addButton.addActionListener(new ActionListener() {
+                                    public void actionPerformed(ActionEvent addingEvent) {
+                                        eventServiceDB.deleteAnniversary(Integer.parseInt(insertid.getText())); //serviciuBD
+
+                                        deleteAniversaryFrame.setVisible(false);
+                                    }
+                                });
+
+                                insertid.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+                                aniversaryFields.setLayout(new BoxLayout(aniversaryFields, BoxLayout.Y_AXIS));
+
+                                aniversaryFields.add(idfield);
+                                aniversaryFields.add(insertid);
+
+                                aniversaryFields.add(addButton);
+
+                                deleteAniversaryFrame.getContentPane().add(aniversaryFields);
+
+                                deleteAniversaryFrame.setSize(new Dimension(300,200));
+                                deleteAniversaryFrame.setLocationRelativeTo(null);
+                                deleteAniversaryFrame.setVisible(true);
+                            }
+                        });
 
                         deleteAcademical.setAlignmentX(Component.CENTER_ALIGNMENT);
                         deleteAnniversay.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -546,6 +651,87 @@ public class InterfaceSwing {
                     }
                 });
 
+                readEventButton.addActionListener(new ActionListener() {
+                    public void actionPerformed(ActionEvent readAnEvent) {
+                        JFrame eventFrame = new JFrame("Read an event");
+                        JPanel eventReadingOptions = new JPanel();
+
+                        JButton readAcademical = new JButton("Find an academical event!");
+                        JButton readAnniversay = new JButton("Find an anniversary!");
+                        JButton readMeeting = new JButton("Find a meeting!");
+                        JButton readOther = new JButton("Find a random event!");
+
+                        readAnniversay.addActionListener(new ActionListener() {
+                            public void actionPerformed(ActionEvent readAniversary) {
+                                JFrame readAniversaryFrame = new JFrame("Finding an aniversary");
+                                JPanel aniversaryFields = new JPanel();
+
+
+                                JLabel birthdayPersonfield = new JLabel("BIRTHDAY PERSON");
+                                JTextField insertbirthdayPerson = new JTextField();
+                                JButton addButton = new JButton("Find!");
+
+                                addButton.addActionListener(new ActionListener() {
+                                    public void actionPerformed(ActionEvent addingEvent) {
+                                        List<Anniversary> anniversaries = eventServiceDB.readAnniversary("Anniversary", insertbirthdayPerson.getText()); //serviciuBD
+
+                                        JFrame anniversariesFrame = new JFrame("Anniversaries");
+                                        JPanel anniversariesFound = new JPanel();
+                                        JTextArea birthdayPpl = new JTextArea();
+                                        birthdayPpl.setText(anniversaries.toString());
+                                        anniversariesFound.add(birthdayPpl);
+                                        anniversariesFrame.getContentPane().add(anniversariesFound);
+                                        anniversariesFrame.setVisible(true);
+
+                                        anniversariesFrame.setSize(new Dimension(500,100));
+                                        anniversariesFrame.setLocationRelativeTo(null);
+
+                                        readAniversaryFrame.setVisible(false);
+
+                                    }
+                                });
+
+                                insertbirthdayPerson.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+                                aniversaryFields.setLayout(new BoxLayout(aniversaryFields, BoxLayout.Y_AXIS));
+
+                                aniversaryFields.add(birthdayPersonfield);
+                                aniversaryFields.add(insertbirthdayPerson);
+
+                                aniversaryFields.add(addButton);
+
+                                readAniversaryFrame.getContentPane().add(aniversaryFields);
+
+                                readAniversaryFrame.setSize(new Dimension(300,200));
+                                readAniversaryFrame.setLocationRelativeTo(null);
+                                readAniversaryFrame.setVisible(true);
+                            }
+                        });
+
+                        readAcademical.setAlignmentX(Component.CENTER_ALIGNMENT);
+                        readAnniversay.setAlignmentX(Component.CENTER_ALIGNMENT);
+                        readMeeting.setAlignmentX(Component.CENTER_ALIGNMENT);
+                        readOther.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+                        eventReadingOptions.setLayout(new BoxLayout(eventReadingOptions, BoxLayout.Y_AXIS));
+
+                        eventReadingOptions.add(Box.createVerticalStrut(50));
+                        eventReadingOptions.add(readAcademical);
+                        eventReadingOptions.add(Box.createVerticalStrut(10));
+                        eventReadingOptions.add(readAnniversay);
+                        eventReadingOptions.add(Box.createVerticalStrut(10));
+                        eventReadingOptions.add(readMeeting);
+                        eventReadingOptions.add(Box.createVerticalStrut(10));
+                        eventReadingOptions.add(readOther);
+
+                        eventFrame.getContentPane().add(eventReadingOptions);
+
+                        eventFrame.setSize(new Dimension(300,300));
+                        eventFrame.setLocationRelativeTo(null);
+                        eventFrame.setVisible(true);
+
+                    }
+                });
 
                 buttons.setLayout(new BoxLayout(buttons, BoxLayout.Y_AXIS));
 

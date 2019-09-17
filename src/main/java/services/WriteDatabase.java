@@ -1,8 +1,10 @@
 package services;
 
+import models.events.Academical;
 import models.events.Anniversary;
 import models.events.Meeting;
 import models.notes.Quotes;
+import models.notes.Story;
 import models.notes.Tasks;
 
 import java.sql.*;
@@ -25,7 +27,7 @@ public class WriteDatabase {
         {
             conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/notebook", "root", "");
 
-             switch( listOfObjects.get(0).getClass().getSimpleName() ) {
+            switch( listOfObjects.get(0).getClass().getSimpleName() ) {
                 case "Anniversary":
                     for( T object: listOfObjects) {
                         Anniversary anniversary = Anniversary.class.cast(object);
@@ -39,6 +41,24 @@ public class WriteDatabase {
                         pstmt.setString(4, anniversary.getBirthdayPerson());
                         pstmt.setString(5, anniversary.getPartyPlace());
                         pstmt.setString(6, anniversary.getGift());
+                        n = pstmt.executeUpdate();
+                        System.out.println("Au fost modificate " + n + " inregistrari!");
+
+                    }
+                    break;
+
+                case "Academical":
+                    for( T object: listOfObjects) {
+                        Academical academical = Academical.class.cast(object);
+                        pstmt = conn.prepareStatement("INSERT INTO academical VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+                        pstmt.setInt(1, academical.getId());
+                        pstmt.setString(2, dateToString(academical.getDate()));
+                        pstmt.setString(3, academical.getDescription());
+                        pstmt.setString(4, academical.getType());
+                        pstmt.setString(5, academical.getField());
+                        pstmt.setString(6, academical.getPlace());
+                        pstmt.setInt(7, academical.getStartTime());
+                        pstmt.setInt(8, academical.getEndTime());
                         n = pstmt.executeUpdate();
                         System.out.println("Au fost modificate " + n + " inregistrari!");
 
@@ -73,6 +93,22 @@ public class WriteDatabase {
                         pstmt.setString(2, quote.getName());
                         pstmt.setString(3, quote.getText());
                         pstmt.setString(4, quote.getAuthor());
+
+                        n = pstmt.executeUpdate();
+                        System.out.println("Au fost modificate " + n + " inregistrari!");
+
+                    }
+                    break;
+
+                case "Story":
+                    for( T object: listOfObjects) {
+                        Story story = Story.class.cast(object);
+                        pstmt = conn.prepareStatement("INSERT INTO tasks VALUES (?, ?, ?, ?, ?)");
+                        pstmt.setInt(1, story.getId());
+                        pstmt.setString(2, story.getName());
+                        pstmt.setString(3, story.getText());
+                        pstmt.setString(4, story.getPlace());
+                        pstmt.setString(5,story.getPeopleInvolved().toString());
 
                         n = pstmt.executeUpdate();
                         System.out.println("Au fost modificate " + n + " inregistrari!");

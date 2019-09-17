@@ -4,11 +4,16 @@ import models.events.*;
 import models.notebook.PlanningNotebook;
 
 //import java.text.ParseException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class EventService {
+    public static Logger LOGGER = null;
+
+
     private PlanningNotebook planningNotebook = PlanningNotebook.getInstance();
     private static EventService eventInstance = new EventService();
 
@@ -16,16 +21,25 @@ public class EventService {
         return eventInstance;
     }
 
-    private EventService() {}
+    private EventService() {
+        try {
+            LOGGER = MyLogger.getInstance();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     public void addAcademical(Date date, String description, String type, String field, String place, int startTime, int endTime) {
+        LOGGER.info("addAcademical");
         Event ev = new Academical(date, description, type, field, place, startTime, endTime);
         planningNotebook.addEvent(ev);
     }
     public void addEvent(Event event) {
+        LOGGER.info("addEvent");
         planningNotebook.addEvent(event);
     }
     public void removeEvent(Event event) {
+        LOGGER.info("removeEvent");
         planningNotebook.deleteEvent(event);
     }
 
@@ -43,10 +57,12 @@ public class EventService {
     }
 
     public List<Anniversary> getAnniversaries() {
+        LOGGER.info("getAnniversaries");
         return planningNotebook.getAnniversaries();
     }
 
     public List<Meeting> getMeetings() {
+        LOGGER.info("getMeetings");
         return planningNotebook.getMeetings();
     }
 
@@ -65,6 +81,8 @@ public class EventService {
     }
 
     public boolean containsEvent(Event event) {
+        LOGGER.info("containsEvent");
+
         List<Event> events = planningNotebook.getEvents();
         for(Event ev: events) {
             if(ev == event) { //a.eguals(b);
@@ -75,6 +93,8 @@ public class EventService {
     }
 
     public List<Event> findByDate(Date date) {
+        LOGGER.info("findByDate");
+
         List<Event> eventOnDay = new ArrayList<>();
         List<Event> aux = planningNotebook.getEvents();
         for(Event ev: aux) {
@@ -86,6 +106,8 @@ public class EventService {
     }
 
     public Date findBirthdayByName(String name) {
+        LOGGER.info("findBirthdayByName");
+
         List<Anniversary> birthdays = planningNotebook.getAnniversaries();
         for(Anniversary bd: birthdays) {
             if(bd.getBirthdayPerson().equals(name)) {

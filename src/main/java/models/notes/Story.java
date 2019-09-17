@@ -5,6 +5,7 @@ import java.util.HashSet;;
 import java.util.Set;
 
 public class Story extends Notes {
+    private int id;
     private String place;
     private Set<String> peopleInvolved = new HashSet<String>();
 
@@ -34,6 +35,14 @@ public class Story extends Notes {
 
     public Set<String> getPeopleInvolved() {
         return peopleInvolved;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Override

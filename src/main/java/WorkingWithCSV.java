@@ -7,6 +7,7 @@ import services.*;
 import java.io.IOException;
 import java.text.ParseException;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -16,6 +17,7 @@ public class WorkingWithCSV {
     public static void main(String[] args) throws IOException, ParseException {
         NoteService noteService = NoteService.getInstance();
         EventService eventService = EventService.getInstance();
+
 
         LOGGER = MyLogger.getInstance();
         LOGGER.info("PROGRAM RUNNING");
@@ -41,6 +43,7 @@ public class WorkingWithCSV {
 
         LOGGER.info("ADDING DATA TO CSV FILES");
 
+        // de adaugat logger in serviciu
         Calendar dateToAdd = Calendar.getInstance();
         dateToAdd.set(1997, 11, 29);
         Anniversary nela = new Anniversary(dateToAdd.getTime(), "", "Sarah", "bar", "bautura");
@@ -52,8 +55,12 @@ public class WorkingWithCSV {
         WriteCSV.CSVWriter(anniversaryList);
 
 
-        WriteDatabase.DatabaseWriter(anniversaryList);
 
+        Collections.sort(anniversaryList, (a1, a2) -> {
+            return a1.getBirthdayPerson().compareTo(a2.getBirthdayPerson());
+        });
+
+        anniversaryList.stream().forEach(Anniversary::printEvent);
 
         LOGGER.info("PROGRAM ENDED");
     }

@@ -2,11 +2,14 @@ package models.notebook;
 
 import models.events.*;
 import models.notes.*;
+import services.MyLogger;
 
 //import java.text.ParseException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class PlanningNotebook{
     //    String ownerType;

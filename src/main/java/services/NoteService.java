@@ -3,10 +3,14 @@ package services;
 import models.notebook.PlanningNotebook;
 import models.notes.*;
 
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class NoteService {
+    public static Logger LOGGER = null;
+
     private PlanningNotebook planningNotebook = PlanningNotebook.getInstance();
 
     private static NoteService noteInstance = new NoteService();
@@ -15,7 +19,13 @@ public class NoteService {
         return noteInstance;
     }
 
-    private NoteService() {}
+    private NoteService() {
+        try {
+            LOGGER = MyLogger.getInstance();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 
     public void addNote(Notes note) {
@@ -52,6 +62,7 @@ public class NoteService {
 
 
     public List<Quotes> getQuotes() {
+        LOGGER.info("getQuotes");
         return planningNotebook.getQuotes();
     }
 
@@ -70,6 +81,8 @@ public class NoteService {
     }
 
     public List<Tasks> findTasksToDo() {
+        LOGGER.info("findTasksToDo");
+
         List<Tasks> toDo = planningNotebook.getTasks();
         for(Tasks t: toDo) {
             if(t.isDone() == true) {

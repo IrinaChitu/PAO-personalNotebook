@@ -4,6 +4,8 @@ package models.events;
 import java.util.Date;
 
 public class Academical extends Event {
+    private static int id_DB;
+    private int id;
     private String type;
     private String field;
     private String place;
@@ -73,6 +75,19 @@ public class Academical extends Event {
         return endTime;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public static int getId_DB() {
+        return ++Academical.id_DB;
+    }
+
+
     @Override
     public void printEvent() {
         super.printEvent();
@@ -85,11 +100,7 @@ public class Academical extends Event {
         if(place != null) {
             System.out.println("Place: " + place);
         }
-        if(startTime != 0) {
-            System.out.println("Start Time: " + startTime);
-        }
-        if(endTime != 0) {
-            System.out.println("End Time: " + endTime);
-        }
+        System.out.println("Start Time: " + startTime);
+        System.out.println("End Time: " + endTime);
     }
 }

@@ -1,90 +1,28 @@
-Mon Sep 16 23:50:21 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
-Mon Sep 16 23:50:21 EEST 2019: LOADING DATA FROM CSV FILES - personalNotebook.Logger
-Mon Sep 16 23:50:21 EEST 2019: LOADING ACADEMICALS FROM academical.csv - personalNotebook.Logger
-Mon Sep 16 23:50:21 EEST 2019: LOADING ANNIVERSARIES FROM anniversary.csv - personalNotebook.Logger
-Mon Sep 16 23:50:21 EEST 2019: LOADING QUOTES FROM quotes.csv - personalNotebook.Logger
-Mon Sep 16 23:50:21 EEST 2019: LOADING STORIES FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: LOADING DATA FROM CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: START LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: DONE LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: START LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: DONE LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: START LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: DONE LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: START LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: DONE LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: ADDING DATA TO CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:12:22 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: LOADING DATA FROM CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: START LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: DONE LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: START LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: DONE LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: START LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: DONE LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: START LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: DONE LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: ADDING DATA TO CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:14:10 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: LOADING DATA FROM CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: START LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: DONE LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: START LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: DONE LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: START LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: DONE LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: START LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: DONE LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: ADDING DATA TO CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:16:58 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: LOADING DATA FROM CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: START LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: DONE LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: START LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: DONE LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: START LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: DONE LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: START LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: DONE LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: ADDING DATA TO CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:20:37 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: LOADING DATA FROM CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: START LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: DONE LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: START LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: DONE LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: START LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: DONE LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: START LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: DONE LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: ADDING DATA TO CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:22:55 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: LOADING DATA FROM CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: START LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: DONE LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: START LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: DONE LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: START LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: DONE LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: START LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: DONE LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: ADDING DATA TO CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:28:47 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: PROGRAM RUNNING - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: LOADING DATA FROM CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: START LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: DONE LOADING academical events FROM academical.csv - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: START LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: DONE LOADING anniversaries FROM anniversary.csv - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: START LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: DONE LOADING quotes FROM quotes.csv - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: START LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: DONE LOADING stories FROM story.csv - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: ADDING DATA TO CSV FILES - personalNotebook.Logger
-Tue Sep 17 00:28:57 EEST 2019: PROGRAM ENDED - personalNotebook.Logger
+Tue Sep 17 02:40:52 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 02:40:52 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 02:40:52 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 02:40:52 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 02:41:25 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 02:41:25 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 02:41:25 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 02:41:25 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 02:41:55 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 02:41:55 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 02:41:55 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 02:41:55 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:02:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:02:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:02:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:02:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:05:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:05:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:05:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:05:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:08:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:08:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:08:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:08:48 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:09:41 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:09:41 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:09:41 EEST 2019: addEvent - personalNotebook.Logger
+Tue Sep 17 03:09:41 EEST 2019: addEvent - personalNotebook.Logger
